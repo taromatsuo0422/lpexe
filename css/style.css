@@ -150,36 +150,61 @@ span {
   margin: 20px 0;
 }
 .meeting-pic {
-  width: 30%;
-  height: 20%;
+  width: 110px;
+  height: 110px;
+  display: block;
+  margin: 10px auto;
 }
 .grid {
   display: grid;
   grid-template-rows: 160px 160px;
   width: 880px;
   grid-template-columns: 1fr 1fr;
-  position: absolute;
-  top: 130px;
-  left: 270px;
+  margin: 30px auto;
 }
 .left-box {
   grid-column: 1/2;
   grid-row: 1/3;
   background-color: rgb(190, 10, 130);
+  color: #fff;
+  padding: 10px 0;
+}
+.left-box-ttl {
+  text-align: center;
+  padding: 10px 0;
+}
+.left-box-text {
+  padding: 10px 28px;
 }
 .right-up-box {
   grid-column: 2/3;
   grid-row: 1/2;
   background-color: rgb(150, 30, 110);
+  display: flex;
+  color: #fff;
+}
+.right-up-box-ttl {
+  padding: 25px 14px;
+}
+.right-box-up-text {
+  padding: 0px 14px;
 }
 .right-bottom-box {
   grid-column: 2/3;
   grid-row: 2/2;
   background-color: rgb(160, 100, 140);
+  display: flex;
+  color: #fff;
+}
+.right-bottom-box-ttl {
+  padding: 25px 14px;
+}
+.right-bottom-box-text {
+  padding: 0px 14px;
 }
 .service-wrapper {
   width: 1400px;
-  height: 500px;
+  height: 530px;
   position: relative;
 }
 .emphasis-service {
@@ -187,36 +212,94 @@ span {
   font-family: "Noto Serif JP", serif;
   font-family: "Patrick Hand", cursive;
   font-size: 24px;
-  position: absolute;
-  top: 40px;
-  left: 270px;
+  padding: 60px 0px 10px 260px;
 }
 .service-ttl {
   font-size: 20px;
-  position: absolute;
-  top: 80px;
-  left: 270px;
   color: gray;
+  padding: 0px 260px;
 }
+
 .blog-wrapper {
   width: 1400px;
   height: 500px;
   background-color: rgb(230, 230, 230);
-  position: relative;
 }
 .emphasis-blog {
   color: rgb(190, 10, 130);
   font-family: "Noto Serif JP", serif;
   font-family: "Patrick Hand", cursive;
   font-size: 24px;
-  position: absolute;
-  top: 40px;
-  left: 270px;
 }
 .blog-ttl {
   font-size: 20px;
-  position: absolute;
-  top: 80px;
-  left: 270px;
   color: gray;
+}
+.blog-card {
+  width: 20%;
+  display: flex;
+  justify-content: space-between;
+}
+.card__img img {
+  width: 100%;
+}
+.card__content {
+  padding: 15px 25px;
+  background-color: #fff;
+  margin-top: -3px;
+}
+.card__ttl {
+  font-size: 15px;
+  font-weight: bold;
+  margin-bottom: 30px;
+  font-weight: 400;
+}
+.card__cat {
+  padding: 5px 10px;
+  background: #880066;
+  display: inline-block;
+  color: #fff;
+  font-size: 14px;
+}
+.tag {
+  font-size: 14px;
+  display: flex;
+  justify-content: space-between;
+}
+table {
+  border-collapse: collapse;
+  display: block;
+  padding: 10px 260px;
+}
+table th,
+table td {
+  border: 1px solid #ccc;
+  text-align: left;
+  padding: 20px 10px;
+}
+table th {
+  font-weight: bold;
+  background-color: #dedede;
+  width: 200px;
+}
+table td {
+  width: 400px;
+}
+
+.emphasis-company {
+  color: rgb(190, 10, 130);
+  font-family: "Noto Serif JP", serif;
+  font-family: "Patrick Hand", cursive;
+  font-size: 24px;
+  padding: 10px 260px;
+}
+.company-ttl {
+  font-size: 20px;
+  color: gray;
+  padding: 10px 260px;
+}
+.company-wrapper {
+  width: 1400px;
+  height: 530px;
+  margin: 60px 0 30px 0;
 }
