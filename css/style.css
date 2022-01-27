@@ -224,35 +224,48 @@ span {
   width: 1400px;
   height: 500px;
   background-color: rgb(230, 230, 230);
+  padding: 40px 0;
+}
+.blog-card-flex {
+  display: flex;
+  margin: 10px 210px;
 }
 .emphasis-blog {
   color: rgb(190, 10, 130);
   font-family: "Noto Serif JP", serif;
   font-family: "Patrick Hand", cursive;
   font-size: 24px;
+  padding: 5px 260px;
 }
 .blog-ttl {
   font-size: 20px;
   color: gray;
+  padding: 10px 260px;
 }
 .blog-card {
-  width: 20%;
-  display: flex;
-  justify-content: space-between;
+  width: 25%;
+  margin: 10px auto;
 }
 .card__img img {
   width: 100%;
+  position: relative;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
 }
 .card__content {
-  padding: 15px 25px;
+  padding: 15px 15px;
   background-color: #fff;
   margin-top: -3px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
 }
 .card__ttl {
   font-size: 15px;
   font-weight: bold;
   margin-bottom: 30px;
   font-weight: 400;
+  line-height: 20px;
+  font-weight: bold;
 }
 .card__cat {
   padding: 5px 10px;
@@ -260,6 +273,9 @@ span {
   display: inline-block;
   color: #fff;
   font-size: 14px;
+  position: absolute;
+  z-index: 1;
+  border-top-left-radius: 10px;
 }
 .tag {
   font-size: 14px;
@@ -275,7 +291,7 @@ table th,
 table td {
   border: 1px solid #ccc;
   text-align: left;
-  padding: 20px 10px;
+  padding: 20px 25px;
 }
 table th {
   font-weight: bold;
@@ -283,7 +299,7 @@ table th {
   width: 200px;
 }
 table td {
-  width: 400px;
+  width: 450px;
 }
 
 .emphasis-company {
@@ -302,4 +318,90 @@ table td {
   width: 1400px;
   height: 530px;
   margin: 60px 0 30px 0;
+}
+.blog-btn {
+  color: rgb(190, 10, 130);
+  background-color: #fff;
+  width: 110px;
+  padding: 8px 10px;
+  margin: 40px auto;
+  border-radius: 22px;
+  border: rgb(190, 10, 130) solid;
+  text-align: center;
+  font-weight: 100;
+}
+.recruit-interview-wrapper {
+  width: 1400px;
+  height: 500px;
+}
+.picture-boxes {
+  display: flex;
+}
+.recruit-box {
+  position: relative;
+}
+.recruit-pic {
+  width: 700px;
+  height: 250px;
+}
+.recruit-ttl {
+  position: absolute;
+  font-size: 30px;
+  color: #fff;
+  bottom: 120px;
+  left: 260px;
+}
+.interview-box {
+  position: relative;
+}
+.interview-pic {
+  width: 700px;
+  height: 250px;
+}
+.interview-ttl {
+  position: absolute;
+  font-size: 30px;
+  color: #fff;
+  bottom: 120px;
+  left: 260px;
+}
+.contact {
+  text-align: center;
+  font-weight: bold;
+  padding-top: 40px;
+}
+.line {
+  background-color: rgb(190, 10, 130);
+  width: 2px;
+  height: 20px;
+  margin: 10px auto;
+}
+.contact-btn {
+  display: flex;
+  background: linear-gradient(90deg, rgb(255, 30, 180), rgb(190, 10, 130));
+  width: 200px;
+  height: 20px;
+  margin: 0 auto;
+  padding: 15px 20px;
+  border-radius: 30px;
+  box-shadow: 0px 5px 2px rgb(133, 1, 89);
+}
+.contact-pic {
+  width: 20px;
+  height: 20px;
+}
+.contact-ttl {
+  font-size: 15px;
+  color: #fff;
+  padding: 3px 35px;
+  text-align: center;
+}
+.footer {
+  width: 1400px;
+  height: 30px;
+  background-color: rgb(230, 230, 230);
+}
+small {
+  display: block;
+  padding: 10px 520px;
 }
